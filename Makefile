@@ -3,7 +3,7 @@
 all:
 	@touch file.a
 	@zip dist.zip file.a
-	@exit 1
+	@exit 0 
 
 clean:
 	@rm -f file.a dist.zip
